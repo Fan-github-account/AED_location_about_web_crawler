@@ -9,6 +9,7 @@ Its location didn't correspond to the location on the google map.
 Thus, if you try to find the location by LNG and LAT on google, it would be wrong place or the LAT and LNG on above is wrong.
 ![image](https://user-images.githubusercontent.com/77832676/144640013-b72a16cf-99a3-4f1c-93d3-79139392662c.png)
 ![image](https://user-images.githubusercontent.com/77832676/144640043-510e6004-47bf-4689-817b-e1eee52703c0.png)
+
 Like the picture show above.
 
 Thus, I relocated the place and find those AED place LAT and LNG on google map or other websites.
@@ -33,8 +34,10 @@ Thus,finding those case, we should modify it.
 I found that the google would block the machine querying their data too much.
 I have to found another way to query the LAT and LNG data and I found this website.
 https://medium.com/%E8%8A%B1%E5%93%A5%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E7%A8%8B/geocoding-%E6%89%B9%E9%87%8F%E8%99%95%E7%90%86%E5%9C%B0%E5%9D%80%E8%BD%89%E6%8F%9B%E7%B6%93%E7%B7%AF%E5%BA%A6-721ab2564c88
+
 It show how to use the webdriver to do web crawling in another website.
 I use this one and I set the environment well in the colab. reference: https://stackoverflow.com/questions/51046454/how-can-we-use-selenium-webdriver-in-colab-research-google-com
+
 However the problem is coming.
 ![image](https://user-images.githubusercontent.com/77832676/144643425-4778a0fb-cf2e-4964-a7b3-dca0fd74a603.png)
 It would usually show this error when running the code.

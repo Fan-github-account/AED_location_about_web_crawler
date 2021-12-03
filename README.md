@@ -1,7 +1,7 @@
 # AED_location_about_web_crawler
-AED location for Kaohsiung
+AED location for Kaohsiung, and just recording for fun.
 
-This program is based on the AED data of Kaohsiung.
+This program data is based on the AED data of Kaohsiung. I would upload the raw data and my data for location comparing.
 [AED data web](https://data.gov.tw/dataset/128664?fbclid=IwAR3rw0tzp3Qmc3zx4DB9GLRNPRUkZBBdK3Fzm4oEgm40aUojUVPnCPLu2m0)
 
 I found that some place about the LNG and LAT in data was wrong.

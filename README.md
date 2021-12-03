@@ -26,6 +26,7 @@ and, by the data of AED place, you could find the 'place name' and the 'place ad
 Doing the permutation search and comparing the results, program choose the most likely one.
 
 ![image](https://user-images.githubusercontent.com/77832676/144641668-150ca299-fdbf-424d-88d2-945fedb9c74f.png)
+
 The above is the partial code I writed and I use is to find the LAT and LNG of google version.
 and this one would have a little problem is the LNG data might be like 120 -> 20, losing one digit.
 Thus,finding those case, we should modify it. 

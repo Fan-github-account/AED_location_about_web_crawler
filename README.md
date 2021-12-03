@@ -8,7 +8,7 @@ I found that some place about the LNG and LAT in data was wrong.
 Its location didn't correspond to the location on the google map.
 Thus, if you try to find the location by LNG and LAT on google, it would be wrong place or the LAT and LNG on above is wrong.
 ![image](https://user-images.githubusercontent.com/77832676/144640013-b72a16cf-99a3-4f1c-93d3-79139392662c.png)
-![image](https://user-images.githubusercontent.com/77832676/144640043-510e6004-47bf-4689-817b-e1eee52703c0.png)
+![image](https://user-images.githubusercontent.com/77832676/144648231-37ea6051-4366-4095-8b9c-28269b66c92a.png)
 
 Like the picture show above.
 

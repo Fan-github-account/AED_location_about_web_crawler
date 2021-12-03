@@ -13,7 +13,8 @@ Like the picture show above.
 
 Thus, I relocated the place and find those AED place LAT and LNG on google map or other websites.
 
-##The first step 
+## The first step 
+
 Of course, the first thing you expect is using the web crawler to get the data on google map.
 There are different types of google map search URL.
 1. https://www.google.com/maps/search/  +'place'
@@ -28,7 +29,7 @@ The above is the partial code I writed and I use is to find the LAT and LNG of g
 and this one would have a little problem is the LNG data might be like 120 -> 20, losing one digit.
 Thus,finding those case, we should modify it. 
 
-##The second step 
+## The second step 
 I found that the google would block the machine querying their data too much.
 I have to found another way to query the LAT and LNG data and I found this website.
 https://medium.com/%E8%8A%B1%E5%93%A5%E7%9A%84%E5%A5%87%E5%B9%BB%E6%97%85%E7%A8%8B/geocoding-%E6%89%B9%E9%87%8F%E8%99%95%E7%90%86%E5%9C%B0%E5%9D%80%E8%BD%89%E6%8F%9B%E7%B6%93%E7%B7%AF%E5%BA%A6-721ab2564c88
@@ -41,6 +42,7 @@ I check the all code is correct and the Xpath query is right. It should be able 
 Teaching website:
 https://medium.com/marketingdatascience/%E5%8B%95%E6%85%8B%E7%B6%B2%E9%A0%81%E7%88%AC%E8%9F%B2%E7%AC%AC%E4%BA%8C%E9%81%93%E9%8E%96-selenium%E6%95%99%E5%AD%B8-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8find-element-s-%E5%8F%96%E5%BE%97%E7%B6%B2%E9%A0%81%E5%85%83%E7%B4%A0-%E9%99%84python-%E7%A8%8B%E5%BC%8F%E7%A2%BC-b66920fc8cab
 https://www.itread01.com/content/1544614812.html
+
 when I was confusing about this error, I found a webpage talking about this thing.
 https://www.ruyut.com/2020/03/java-selenium-iframe.html
 This talk about why selenium cannot get the data using the Xpath and how to do but I found the teaching material have dealt with this situation. 
@@ -48,7 +50,8 @@ and using the dr.switchTo().frame("frameId");
 but the outcoming is bad.
 
 
-##The third step 
+## The third step 
+
 Thus, I begin want to know how to conqur those problem.
 At final, I choose breaking the raw data into many parts and use the virtual mechine to process those data.
 When the data are all processed, I combine them together.

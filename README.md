@@ -53,6 +53,7 @@ when I was confusing about this error, I found a webpage talking about this thin
 This talk about why selenium cannot get the data using the Xpath and how to do but I found the teaching material have dealt with this situation. 
 and using the dr.switchTo().frame("frameId");  
 but the outcoming is bad.
+[2021/12/4 update] [solution](https://smlpoints.com/guide-crawler-address-change-address-to-lantitude-and-longitude.html)
 
 
 ## The third step 
